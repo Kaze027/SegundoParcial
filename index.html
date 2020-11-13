@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Alumnos</title>
+	<meta name="viewport">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+	<p>Alumno: Marco Antonio Méndez Clak</p>
+	<p>Número de control: 16220009</p>
+	<p>Carrera: Ingeniería en Informática</p>
+	<p>Semestre: 9</p>
+	<!-- Tabla -->
+	<div class="container">
+		<div class="row">
+			<input type="text" id="matricula" placeholder="Buscar matricula">
+			<button onclick="agregarRenglon('tablaDatos')" class="btn btn-info" value="a">Agregar renglon</button><br>
+			<table id="tablaDatos" class="table">
+				<thead>
+					<tr>
+						<th width="10%">Matricula</th>
+						<th width="25%">Nombre</th>
+						<th width="15%">CURP</th>
+						<th width="10%">Email</th>
+						<th width="15%">Sexo</th>
+						<th width="15%">Ciudad</th>
+						<th width="10%">Detalles</th>
+
+					</tr>
+				</thead>
+			</table>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
